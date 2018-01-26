@@ -1,6 +1,6 @@
 from pytube import YouTube
 
-yt = YouTube(str(input("Enter the video link: ")))
+yt = YouTube(input("Enter the video link: "))
 videos = yt.get_videos()
 
 s = 1
